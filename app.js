@@ -1,6 +1,5 @@
 //jshint esversion:6
 
-//Username and Password : ToDoList
 
 const express = require("express");
 const bodyParser = require("body-parser");
