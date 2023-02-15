@@ -13,7 +13,7 @@ app.set('view engine','ejs');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
-mongoose.connect('mongodb+srv://ToDoList:ToDoList@todolist.cp6gtvm.mongodb.net/?retryWrites=true&w=majority',{useNewUrlParser: true});
+mongoose.connect('Your db conn string',{useNewUrlParser: true});
 
 let items =[];
 let workItems=[];
