@@ -1,9 +1,18 @@
-Hey All
-This is a ToDo List made using HTML, CSS, JavaScript, Node.js and MongoDB.
-Packages needed : Node, Nodemon, Lodash, mongoose.
-I used MongoDB Atlas for the backend. 
-index.html code is written for the webpage landing. 
-styles.css written to design the background color of the page. Other elements such as heading, input, button have also been styled.
-app.js is the heart of the webpage which connects all others and gives life to the webpage. 
-list.ejs is written to direct the input taken to app.js and to further work on that input. 
-MongoDB is used to store the data given. 
+<h1>ToDo List</h1>
+<p> This is a Node.js and MongoDB project to add tasks and check them off when they are done. You can also create multiple lists.</p>
+<br>
+<h2>TechStack</h2>
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JavaScript</li>
+  <li>Node.js</li>
+  <li>MongoDB</li>
+</ul>
+<br>
+<h2> Screenshots </h2>
+![image](https://github.com/Praveenakolluri26/ToDoList/assets/95612519/55a23bb1-3204-4be7-ac73-7462982503eb)
+<br>
+<h2>Local Run</h2>
+<p> Clone this project.</p>
+<p> Change the MongoDB connections and users.</p>
